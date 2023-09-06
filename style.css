@@ -1,0 +1,39 @@
+li~li{
+    color:blueviolet;
+}
+/*LVHA(linked, visited, Hover, Active)*/
+nav a:link{
+    color: brown;
+    text-decoration: dotted;
+}
+nav a:visited{
+    color:burlywood;
+}
+nav a:hover{
+    color:aqua;
+}
+nav a:active{
+    color:darkgreen
+}
+ol li:first-child{
+    color:coral; 
+}
+ol li:last-child{
+    color: cyan;
+}
+ol li:nth-child(even){
+    color:coral;
+}
+ol li:nth-child(odd){
+    color: green;
+}
+ol li:nth-child(4){
+    color:chartreuse;
+}
+ol li:nth-child(4n+1){
+    color: darkgreen;
+}
+p::first-letter{
+    color:cadetblue;
+    font-size: larger;
+}
